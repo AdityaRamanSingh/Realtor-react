@@ -5,7 +5,7 @@ import SignIn from "./components/SignIn"
 import SignUp from "./components/SignUp"
 import ForgotPassword from "./components/ForgotPassword"
 import Offers from "./components/Offers"
-
+import Header from "./components/Header"
  
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
   return (
   <>
     <Router>
+<Header/>
       <Routes>
      <Route path="/" element={<Home/>}/>
      <Route path="/profile" element={<Profile/>}/>
